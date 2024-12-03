@@ -9,16 +9,31 @@ box-sizing: border-box;
 margin:0px;
 vertical-align:bottom;
 }
+.header
+{
+    height:60px;
+    width:100%;
+    background-color: skyblue;
+    display:inline-block;
+}
 .dashboard
 {
-height:60px;
-width:auto;
-background-color:skyblue;
+width:90%;
+/* background-color:rgb(62, 194, 106); */
 color:white;
-text-align: center;
-font-size:30px;
-padding:15px 0px 20px 0px;
-background-image: url(arrow.png);
+margin:12.5px 10px 12.5px;
+font-size:35px;
+padding:0px 400px 0px 550px;
+display:inline-block;
+}
+.image
+{
+    height:35px;
+    width:5%;
+    margin:15.5px 10px;
+    /* background-color:rgb(220, 139, 32); */
+    padding:2px 10px px 5px;
+    display:inline-block;
 }
 .left
 {
@@ -141,6 +156,7 @@ padding:10px 20px 10px 20px;
 border-radius:30px;
 display:inline-block;
 color:white;
+box-shadow:2px 5px 10px rgba(0,0,0,0.2);
 }
 .update
 {
@@ -186,6 +202,7 @@ input
     height:25px;
     border:1px solid black;
     display:inline-block;
+    border-radius: 5px;
     
 }
 .footer
@@ -195,37 +212,36 @@ input
     background-color: skyblue;
     margin:0px;
 }
-.logo
-{
-    width:auto;
-    margin-left:700px;
-}
+
 </style>
 <body>
     
-<div class = "dashboard">Dashboard</div>
+<div class = "header">
+    <div class = "dashboard">Dashboard</div>
+    <div class = "image"><img src = "image/arrow.png" height ="40px" width="50px" ></div>
+</div>
 <div class = "left" >
         <div class = "namedetail">
             <div class = "box">Namedetail</div>
             <div class = "align">
                 <div class = "name" >Name</div>
                 <div class = "colon">:</div>
-                <div class="label">hi</div>
+                <div class="label"></div>
             </div>
             <div class = "align">
                 <div class = "design" >Design</div>
                 <div class = "colon">:</div>
-                <div class="label">web</div>
+                <div class="label"></div>
             </div>
             <div class = "align">
                 <div class = "email" >Email</div>
                 <div class = "colon">:</div>
-                <div class="label">mr@gmail.com</div>
+                <div class="label"></div>
             </div>
             <div class = "align">
                 <div class = "phone" >Ph</div>
                 <div class = "colon">:</div>
-                <div class="label">789654123</div>
+                <div class="label"></div>
             </div>
                 <div class = "namebox">MR.</div>
         </div>
@@ -233,8 +249,8 @@ input
     <div class = "reset" >
         <div class = "pwchange">Reset Password</div>
         <!--<div class = "oldpw"></div>-->
-        <input type = "name" class ="oldpw" />
-        <input type = "name" class ="newpw" />
+        <input type = "name" class ="oldpw" placeholder = "Old Password" />
+        <input type = "name" class ="newpw" placeholder = "New Password"/>
         <div class = "button">Update</div>
     </div>
     <div class ="update">
