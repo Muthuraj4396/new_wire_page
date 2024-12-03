@@ -55,30 +55,36 @@ display:inline-block;
     margin:30px 100px 50px 300px;
     height:450px;
     width :250px;
-    border:1px solid black;
+    /* border:1px solid black; */
     border-radius: 50px;
+    box-shadow:2px 5px 10px rgba(165, 159, 159, 0.2);
 }
 .namebox
 {
-    margin:152px 0px 0px 0px;
+    margin:130px 0px 0px 0px;
     width:auto;
     height:140px;
-    border:none;
-    border-top:1px solid black;
-    background-color: none;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* border-top:1px solid black; */
+    background-color:rgb(180, 223, 240);
     text-align:center;
     padding:35px;
     font-size:40px;
+    color:white;
 }
 .box
 {
     height:40px;
     width:auto;
-    border:none;
-    border-bottom: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* border-bottom: 1px solid black; */
     text-align: center;
     padding:10px;
     font-size:20px;
+    background-color: skyblue;
+    color:white;
 }
 .align
 {
@@ -87,32 +93,38 @@ display:inline-block;
 .name
 {
     width:40%;
+    font-size: 18px;
     display:inline-block;
 }
 .colon
 {
     width:10%;
+    font-size: 18px;
     display:inline-block;
 }
 .label
 {
     width:30%;
+    font-size: 18px;
     display:inline-block;
 }
 .design
 {
     width:40%;
+    font-size: 18px;
     display:inline-block;
 }
 .email
 {
     width:40%;
+    font-size: 18px;
     display:inline-block;
 }
 
 .phone
 {
     width:40%;
+    font-size: 18px;
     display:inline-block;
 }
 .reset
@@ -120,32 +132,39 @@ display:inline-block;
     margin:30px 20px 10px 10px;
     width:450px;
     height:230px;
-    border:1px solid black;
+    /* border:1px solid black; */
     border-radius: 50px;
+    box-shadow:2px 5px 10px rgba(165, 159, 159, 0.2);
 }
 .pwchange
 {
+    margin-left: 70px;
     height: 40px;
-    width:auto;
-    border:none;
-    border-bottom:1px solid black;
+    width:300px;
+    border-radius:50px;
+    /* border-bottom:1px solid black; */
     text-align: center;
     padding:10px;
-    font-size: 20px;   
+    font-size: 20px; 
+    background-color: skyblue;  
+    color:white;
+    box-shadow:2px 5px 10px rgba(165, 159, 159, 0.2);
 }
 .oldpw
 {
     margin:30px 20px 10px 100px;
     height: 25px;
     width:250px;
-    border:1px solid black;
+    border:none;
+    box-shadow:2px 5px 10px rgba(165, 159, 159, 0.2);
 }
 .newpw
 {
     margin:20px 20px 10px 100px;
     height: 25px;
     width:250px;
-    border:1px solid black;
+    border:none;
+    box-shadow:2px 5px 10px rgba(165, 159, 159, 0.2);
 }
 .button
 {
@@ -156,25 +175,29 @@ padding:10px 20px 10px 20px;
 border-radius:30px;
 display:inline-block;
 color:white;
-box-shadow:2px 5px 10px rgba(0,0,0,0.2);
+box-shadow:2px 5px 10px rgba(165, 159, 159, 0.2);
 }
 .update
 {
     margin:30px 20px 10px 10px;
     width:450px;
     height:190px;
-    border:1px solid black;
+    /* border:1px solid black; */
     border-radius: 50px;
+    box-shadow:2px 5px 10px rgba(165, 159, 159, 0.2);
 }
 .updetail
 {
+    margin-left: 70px;
     height:40px;
-    width:auto;
-    border:none;
-    border-bottom:1px solid black;
+    width:300px;
+    border-radius:50px;
+    /* border-bottom:1px solid black; */
     text-align: center;
     padding:10px;
     font-size: 20px;
+    color:white;
+    background-color: skyblue;
 }
 .main
 {
@@ -189,7 +212,9 @@ box-shadow:2px 5px 10px rgba(0,0,0,0.2);
     display:inline-block;
     padding-left: 10px;
     padding-right: 0px;
-    width:15%
+    width:15%;
+    font-size:18px;
+    
 }
 .updatecolon
 {
@@ -200,9 +225,11 @@ input
 {
     width:25%;
     height:25px;
-    border:1px solid black;
+    border:none;
     display:inline-block;
     border-radius: 5px;
+    box-shadow:2px 5px 10px rgba(165, 159, 159, 0.2);
+    padding-left: 20px;
     
 }
 .footer
@@ -218,11 +245,11 @@ input
     
 <div class = "header">
     <div class = "dashboard">Dashboard</div>
-    <div class = "image"><img src = "image/arrow.png" height ="40px" width="50px" ></div>
+    <div class = "image"><img src = "image/image.png" height ="40px" width="50px" ></div>
 </div>
 <div class = "left" >
         <div class = "namedetail">
-            <div class = "box">Namedetail</div>
+            <div class = "box">Name Detail</div>
             <div class = "align">
                 <div class = "name" >Name</div>
                 <div class = "colon">:</div>
@@ -243,13 +270,13 @@ input
                 <div class = "colon">:</div>
                 <div class="label"></div>
             </div>
-                <div class = "namebox">MR.</div>
+            <div class = "namebox">MR.</div>
         </div>
     </div><div class = "right">
     <div class = "reset" >
         <div class = "pwchange">Reset Password</div>
         <!--<div class = "oldpw"></div>-->
-        <input type = "name" class ="oldpw" placeholder = "Old Password" />
+        <input type = "name" class ="oldpw" placeholder = "Old Password"/>
         <input type = "name" class ="newpw" placeholder = "New Password"/>
         <div class = "button">Update</div>
     </div>
